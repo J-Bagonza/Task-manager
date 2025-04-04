@@ -84,7 +84,7 @@ impl TaskStorage {
             self.save_tasks()?;
             Ok(())
         } else {
-            Err(io::Error::new(io::ErrorKind::NotFound, "Task not fond"))
+            Err(io::Error::new(io::ErrorKind::NotFound, "Task not found"))
         }
     }
 
