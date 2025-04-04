@@ -54,7 +54,7 @@ impl Task {
     }
 
     pub fn display(&self) -> String {
-        let status = if self.completed { "✅" } else { "❌" };
+        let status = if self.completed { "Done kama Ombachi" } else { "❌" };
         let due = match &self.due_date {
             Some(date) => date.format("%Y-%m-%d %H:%M").to_string(),
             None => "No due date".to_string(),
