@@ -4,3 +4,4 @@ mod task;
 
 pub use cli::*;
 pub use storage::*;
+pub use task::*;
