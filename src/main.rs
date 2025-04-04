@@ -1,3 +1,3 @@
-f main() {
+ main() {
     println!();
 }
